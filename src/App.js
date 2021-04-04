@@ -285,6 +285,7 @@ const App = () => {
         </div>
       </div>
       <footer>
+        <hr/>
         All Rights Reserved Emanuel Slätteby 2021
       </footer>
     </div>

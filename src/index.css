@@ -61,9 +61,13 @@ button:hover {
 }
 
 footer {
-  position: absolute;
   font-size: 0.7em;
-  bottom: 5px;
+  margin: 25px 0;
+  text-align: center;
+}
+
+footer>hr {
+  display: none;
 }
 
 .flex-center {
@@ -80,4 +84,16 @@ footer {
 .flex-cols {
   display: flex;
   flex-direction: column;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  footer {
+    width: 720px;
+    height: 100px;
+  }
+
+  footer>hr {
+    display: block;
+  }
 }
