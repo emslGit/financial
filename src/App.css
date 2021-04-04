@@ -4,6 +4,10 @@
     flex-direction: column;
 }
 
+.App header {
+    align-items: baseline;
+}
+
 .App>div.wrapper {
     padding: 2em;
     justify-content: center;
@@ -20,52 +24,6 @@
 .App>div.wrapper>div:last-of-type {
     margin-left: 2em;
     width: 720px !important;
-}
-
-.finance-inputs>* {
-    margin: 3px;
-}
-
-.finance-inputs>span {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.finance-inputs>span:first-of-type {
-    align-items: center;
-}
-
-.finance-inputs>span:last-of-type {
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.finance-inputs>span:last-of-type input {
-    margin: 0 10px;
-    max-width: 70px;
-}
-
-.finance-inputs>span>p:first-of-type {
-    margin: 0 5px 0 0;
-    font-weight: normal;
-    min-width: 170px;
-}
-
-.finance-inputs>span>p:last-of-type {
-    margin: 0 0 0 3px;
-    font-weight: normal;
-    min-width: 40px;
-    text-align: center;
-}
-
-.finance-inputs .bottom-stats span {
-    height: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .finance-inputs hr, footer hr {

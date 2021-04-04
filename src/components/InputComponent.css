@@ -1,0 +1,22 @@
+.InputComponent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.InputComponent input {
+    margin: 3px;
+}
+
+.InputComponent p:first-of-type {
+    margin: 0 5px 0 0;
+    font-weight: normal;
+    min-width: 170px;
+}
+
+.InputComponent p:last-of-type {
+    margin: 0 0 0 3px;
+    font-weight: normal;
+    min-width: 40px;
+    text-align: center;
+}
