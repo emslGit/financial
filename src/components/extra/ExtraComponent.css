@@ -1,0 +1,16 @@
+.ExtraComponent {
+    border: 1px solid #eee;
+    color: white;
+    background: darkslateblue;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 1em;
+}
+
+.ExtraComponent>span {
+}
+
+.ExtraComponent p {
+    margin: 0;
+    width: 90%;
+}

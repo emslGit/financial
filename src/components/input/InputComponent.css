@@ -11,7 +11,7 @@
 .InputComponent p:first-of-type {
     margin: 0 5px 0 0;
     font-weight: normal;
-    min-width: 170px;
+    width: 170px;
 }
 
 .InputComponent p:last-of-type {

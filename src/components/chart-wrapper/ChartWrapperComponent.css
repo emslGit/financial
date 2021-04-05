@@ -1,0 +1,9 @@
+.ChartWrapperComponent {
+    min-width: 360px;
+}
+
+@media only screen and (max-width: 650px) {
+    .ChartWrapperComponent {
+        margin-left: -20%;
+    }
+}

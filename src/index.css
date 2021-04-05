@@ -91,13 +91,38 @@ footer hr {
   justify-content: space-between;
 }
 
-@media only screen and (max-width: 1200px) {
-  footer {
-    width: 720px;
-    height: 100px;
-  }
+.x-button {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+}
 
-  footer>hr {
-    display: block;
-  }
+.x-button div {
+  height: 4px;
+  width: 20px;
+  border-radius: 1px;
+  background: white;
+  position: absolute;
+  transition: 400ms;
+}
+
+.x-button div:first-of-type {
+  transform: rotate(-45deg);
+}
+
+.x-button div:last-of-type {
+  transform: rotate(45deg);
+}
+
+.x-button:hover {
+  background: none;
+}
+
+.x-button:hover div {
+  background: red;
+  transition: 400ms;
 }

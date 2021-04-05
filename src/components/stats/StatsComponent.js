@@ -5,8 +5,8 @@ const StatsComponent = ({text, stat}) => {
 
   return (
     <span className="StatsComponent">
-      <p>{text}</p>
-      <p>{stat[0].toLocaleString() + ' ' + stat[1]}</p>
+      <p><b>{text}</b></p>
+      <p>{stat[0].toLocaleString().replaceAll(',', ' ') + ' ' + stat[1]}</p>
     </span>
   );
 }

@@ -1,0 +1,27 @@
+.AddExtrasComponent p:first-of-type {
+    margin: 0 5px 0 0;
+    width: 120px;
+}
+
+.AddExtrasComponent>span {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    margin: 0.5em 0;
+    justify-content: space-between;
+}
+
+.AddExtrasComponent>span>span input {
+    max-width: 9em;
+    margin: 3px 5px 3px -1px;
+}
+
+.AddExtrasComponent>span>span>span {
+    display: flex;
+    max-width: 125px;
+    flex-direction: row;
+}
+
+.AddExtrasComponent button {
+    margin-top: 1em;
+}
