@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/financial/static/css/main.3ccd6a66.chunk.css",
+    "main.css": "/financial/static/css/main.4e4dfc67.chunk.css",
     "main.js": "/financial/static/js/main.af20ad6b.chunk.js",
     "main.js.map": "/financial/static/js/main.af20ad6b.chunk.js.map",
     "runtime-main.js": "/financial/static/js/runtime-main.a59f123d.js",
@@ -10,13 +10,13 @@
     "static/js/3.9e3dbb7f.chunk.js": "/financial/static/js/3.9e3dbb7f.chunk.js",
     "static/js/3.9e3dbb7f.chunk.js.map": "/financial/static/js/3.9e3dbb7f.chunk.js.map",
     "index.html": "/financial/index.html",
-    "static/css/main.3ccd6a66.chunk.css.map": "/financial/static/css/main.3ccd6a66.chunk.css.map",
+    "static/css/main.4e4dfc67.chunk.css.map": "/financial/static/css/main.4e4dfc67.chunk.css.map",
     "static/js/2.771db5d6.chunk.js.LICENSE.txt": "/financial/static/js/2.771db5d6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a59f123d.js",
     "static/js/2.771db5d6.chunk.js",
-    "static/css/main.3ccd6a66.chunk.css",
+    "static/css/main.4e4dfc67.chunk.css",
     "static/js/main.af20ad6b.chunk.js"
   ]
 }
