@@ -4,5 +4,6 @@
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
+    color: #111;
     justify-content: space-between;
 }

@@ -1,0 +1,27 @@
+.SettingsComponent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 13px;
+}
+
+.SettingsComponent, .SettingsComponent span {
+    align-items: baseline;
+}
+
+.SettingsComponent .InputComponent p, .SettingsComponent span p {
+    width: auto;
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.SettingsComponent input {
+    width: 4em;
+}
+
+@media only screen and (max-width: 650px) {
+
+    .SettingsComponent {
+        flex-wrap: wrap;
+    }
+}

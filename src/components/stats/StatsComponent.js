@@ -1,7 +1,7 @@
 import './StatsComponent.css';
 
 
-const StatsComponent = ({text, stat}) => {
+export const StatsComponent = ({text, stat}) => {
 
   return (
     <span className="StatsComponent">

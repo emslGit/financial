@@ -1,0 +1,33 @@
+.TaxComponent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.TaxComponent span {
+    display: flex;
+    align-items: baseline;
+}
+
+.TaxComponent input {
+    max-width: 5em;
+    margin: 5px !important;
+    padding: 0 !important;
+}
+
+.TaxComponent input:last-of-type {
+    max-width: 50px;
+}
+
+.TaxComponent span:last-of-type p:last-of-type {
+    margin-left: 12px;
+}
+
+@media only screen and (max-width: 650px) {
+
+    .TaxComponent {
+        flex-wrap: wrap;
+    }
+}
